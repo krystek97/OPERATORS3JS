@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "pl">
+    <head>
+        <meta charset = "UTF-8">
+        <title>VARIABLESWEB</title>
+        <meta name="description" contennt="VARIABLESWEB">
+        <meta name="keywords" content="VARIABLESWEBJS">
+        <meta name="author" content="Krystian Kozłowski">
+        <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="arkusz.css">
+    </head>
+    <body>
+        <script>
+            var number = 23 ;
+            var number2 = 11.5 ;
+            var sublimat = number2 < number || number > 0 ;//Funkcja OR
+            var coniun = number > number2 && number > 20 ; //Koniunkcja
+            var negative = !(number==number2) ; //  Sprawdza czy liczba jest rozna od innej
+            var xor = (number > number2 ^ number > 0) ;//Funkcja xor
+        </script>
+        <script type="text/javascript">
+            document.write(coniun+"<br/>") ;
+            document.write(sublimat+"<br/>") ;
+            document.write(negative+"<br/>") ;
+            document.write(xor+"<br/>") ;
+        </script>
+    </body>
+</html>
